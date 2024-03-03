@@ -11,7 +11,7 @@ const Card = (props) => {
     'Who is The All Time Top World Cup Scorer?': 'Miroslav Klose',
     "How many World Cups have there been in history?": '22',
     "Which Clubs Has Pep Guardiola Managed?": 'Manchester City, Barcelona, and Bayern Munich',
-    "What Is The Record For Most Goals Scored In A Calendar Year": '91',
+    "What Is The Record For Most Goals Scored In A Calendar Year?": '91',
   };
   let randomIndex = Math.floor(Math.random() * Object.keys(questions).length);
   let randomWord = Object.keys(questions)[randomIndex];
